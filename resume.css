@@ -1,0 +1,66 @@
+html{
+    background-color: black;
+    text-align: center;
+    color: black;
+    font-size: 2em;
+    
+}
+
+header{
+    padding: 1em;
+    border-bottom: solid black;
+    margin-left: 5%;
+    margin-right: 5%;
+    
+}
+
+body{
+    background-color: darkcyan;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+main{
+    padding: 2em;
+}
+
+img{
+    max-width: 10rem;
+    max-height: 13rem;
+    border-radius: 10%;
+}
+h2{
+    text-align: center;
+}
+ul{
+    text-align: left;
+}
+
+section{
+    padding-bottom: 2em;
+    border-bottom: solid black;
+}
+
+.contact{
+    font-size: 1em;
+}
+
+@media (min-width: 60em){
+    #intro{
+        display:flex;
+        gap: 2em;
+    }
+    
+
+}
+
+@media (min-width: 60em){
+   
+    .movie-award{
+        display: grid;
+        grid-template: 
+            "a b";
+            gap: 2em;
+    }
+
+}
